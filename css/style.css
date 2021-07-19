@@ -1,8 +1,33 @@
+/* Import font */
+@font-face {
+    font-family: Atkinson;
+    src: url(../fonts/AtkinsonHyperlegible-Regular.woff2);
+}
+
+@font-face {
+    font-family: Atkinson;
+    src: url(../fonts/AtkinsonHyperlegible-Italic.woff2);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Atkinson;
+    src: url(../fonts/AtkinsonHyperlegible-Bold.woff2);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Atkinson;
+    src: url(../fonts/AtkinsonHyperlegible-BoldItalic.woff2);
+    font-style: italic;
+    font-weight: bold;
+}
+
 /* Use solarized colors */
 body {
     color: #657b83;
     background: #fdf6e3;
-    font-size: 20px;
+    font-family: Atkinson;
 }
 
 /* Links */
