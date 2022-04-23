@@ -13,6 +13,17 @@
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <center><h1><a href="https://github.com/PyGamer0">PyGamer0</a>'s Website</h1></center>
+
+    <pre><code class="python>
+# will this work?
+from functools import reduce
+def where(x,up_lvl=[]):
+ # i think this is where
+ if type(x[0])!=list:
+  return [(up_lvl+[i])*e for i,e in enumerate(x)]
+ else:
+  return [where(x[i],up_lvl+[i])for i in range(len(x))]
+    </code></pre>
   </body>
 </html>
 
