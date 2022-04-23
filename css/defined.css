@@ -1,0 +1,11 @@
+:root {
+  --selection: #555559;  /* note: bg */
+  --background: #222226; /* note: bg */
+  --text: #eeeeff;
+  --string: #aaff88;
+  --constant: #55bbff;
+  --title: #dd88dd;
+  --function: #ffbb66;
+  --keyword: #99aaff;
+  --comment: #888892;
+}
