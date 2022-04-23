@@ -1,37 +1,22 @@
 /* Import font */
 @font-face {
-    font-family: Atkinson;
-    src: url(../fonts/AtkinsonHyperlegible-Regular.woff2);
+  font-family: 'icfs';
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('../icfs-regular.woff2') format('woff2');
 }
 
-@font-face {
-    font-family: Atkinson;
-    src: url(../fonts/AtkinsonHyperlegible-Italic.woff2);
-    font-style: italic;
-}
-
-@font-face {
-    font-family: Atkinson;
-    src: url(../fonts/AtkinsonHyperlegible-Bold.woff2);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: Atkinson;
-    src: url(../fonts/AtkinsonHyperlegible-BoldItalic.woff2);
-    font-style: italic;
-    font-weight: bold;
-}
-
-/* Use solarized colors */
+/* Use defined colors */
 body {
-    color: #657b83;
-    background: #fdf6e3;
-    font-family: Atkinson;
+  color: #eeeeff;
+  background: #222226;
+  font-family: icfs;
 }
 
 /* Links */
 a {
-    color: #2aa198;
-    text-decoration: none;
+  color: #aaccee;
+  text-shadow: 4px 4px #22aa99;
 }
