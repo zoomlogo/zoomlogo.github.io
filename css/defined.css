@@ -9,3 +9,40 @@
   --keyword: #99aaff;
   --comment: #888892;
 }
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  background: var(--background);
+  -webkit-text-size-adjust: none;
+}
+
+pre code *::selection,
+.hljs::selection {
+  background: var(--selection) !important;
+}
+
+.hljs, .hljs-params {
+  color: var(--text);
+}
+
+.hljs-string {
+  color: var(--string);
+}
+
+.hljs-number {
+  color: var(--number) !important;
+}
+
+.hljs-title {
+  color: var(--title) !important;
+}
+
+.hljs-built_in, .hljs-keyword {
+  color: var(--keyword) !important;
+}
+
+.hljs-comment {
+  color: var(--comment);
+  font-style: italic;
+}
