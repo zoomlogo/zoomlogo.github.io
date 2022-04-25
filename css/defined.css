@@ -15,11 +15,12 @@ pre code {
   overflow-x: auto;
   background: var(--background);
   -webkit-text-size-adjust: none;
+  font-family: icfs;
 }
 
 pre code *::selection,
 .hljs::selection {
-  background: var(--selection) !important;
+  background: var(--selection);
 }
 
 .hljs, .hljs-params {
@@ -31,15 +32,19 @@ pre code *::selection,
 }
 
 .hljs-number {
-  color: var(--number) !important;
+  color: var(--number);
 }
 
 .hljs-title {
-  color: var(--title) !important;
+  color: var(--title);
 }
 
 .hljs-built_in, .hljs-keyword {
-  color: var(--keyword) !important;
+  color: var(--keyword);
+}
+
+.hljs-function {
+  color: var(--function);
 }
 
 .hljs-comment {
