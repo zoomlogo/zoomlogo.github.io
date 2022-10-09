@@ -1,48 +1,32 @@
 /* Import font */
 @font-face {
-  font-family: 'icfs';
-  font-display: swap;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: normal;
-  src: url('../fonts/icfs-regular.woff2') format('woff2');
+  font-family: 'sevka-r';
+  src: url('../fonts/sevka-regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'icfs';
-  font-display: swap;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: italic;
-  src: url('../fonts/icfs-italic.woff2') format('woff2');
+  font-family: 'sevka-i';
+  src: url('../fonts/sevka-italic.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'icfs';
-  font-display: swap;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: bold;
-  src: url('../fonts/icfs-bold.woff2') format('woff2');
+  font-family: 'sevka-b';
+  src: url('../fonts/sevka-bold.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'icfs';
-  font-display: swap;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: bolditalic;
-  src: url('../fonts/icfs-bolditalic.woff2') format('woff2');
+  font-family: 'sevka-bi';
+  src: url('../fonts/sevka-bolditalic.woff2') format('woff2');
 }
 
-/* Use defined colors */
+/* Use cemant's colors */
 body {
-  color: #eeeeff;
-  background: #222226;
-  font-family: icfs;
+  color: #b9bdc5;
+  background: #36383f;
+  font-family: sevka-r;
 }
 
 /* Links */
 a {
-  color: #aaccee;
+  color: #667ad3;
 }
