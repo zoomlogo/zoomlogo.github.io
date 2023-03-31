@@ -26,6 +26,20 @@ body {
   font-family: sevka-r;
 }
 
+.red     { color: #cf554d; }
+.green   { color: #72a336; }
+.yellow  { color: #ba8d3b; }
+.blue    { color: #667ad3; }
+.magenta { color: #ba59b3; }
+.cyan    { color: #4ea494; }
+
+.Red     { color: #a32c2d; }
+.Green   { color: #4b7d08; }
+.Yellow  { color: #916814; }
+.Blue    { color: #3c56aa; }
+.Magenta { color: #91328c; }
+.Cyan    { color: #237e6f; }
+
 /* Links */
 a {
   color: #667ad3;
